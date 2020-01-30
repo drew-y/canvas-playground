@@ -54,6 +54,7 @@ function drawKochSnowflakeSide(start, end, iter) {
     drawLine(right, end);
 }
 
+// Partially adpated from https://gist.github.com/BrianDGLS/cb2809febca2cb33a701781be041583f
 function drawKochSnowFlake(iterations = 5) {
     const top = { x: 0, y: -195 };
     const left = { x: 195, y: 130 };
